@@ -58,16 +58,15 @@ const Contact = ({ text, fontFamily }) => {
 
   return (
     // Outer Container
-    <div id="contact" className="w-full grid justify-items-center mt-10">
+    <div id="contact" className="w-full flex flex-col items-center mt-10">
+
       <h1 className="text-5xl font-bold" style={{ color: `#${text}`, fontFamily }}>
         Contact Us
       </h1>
 
       {/* Flex Container with Image and Form Side by Side */}
-       <div className="block md:flex w-full md:m-auto p-5 ">
-
-
-        {/* Input Form */}
+      <div className="flex flex-col md:flex-row items-center md:items-start w-full p-5 gap-5">
+    {/* Input Form */}
         <form style={{fontFamily:"Cinzel"}} className="w-full md:w-[60%] h-[100%] m-auto flex flex-col gap-3 p-5" onSubmit={submitMessage}>
 
           <p style={{color:"black"}} className='text-xl'>For Collaborations, Big Orders or any Questions, feel free to contact us! Esimated Response Time: 2-3 Buisness Days.</p>
@@ -124,9 +123,10 @@ const Contact = ({ text, fontFamily }) => {
         </form>
 
         {/* Image Container */}
-        <div className="w-[70%] md:w-[30%] my-auto mx-auto">
-          <img className="w-full" src={icebox} alt="Contact" />
+        <div className="w-[70%] md:w-[30%]">
+          <img className="w-full max-h-[300px] object-contain" src={icebox} alt="Contact" />
         </div>
+
       </div>
     </div>
   );
