@@ -4,7 +4,7 @@ import doordashLogo from '../images/dooor-dash.png';
 
 const Order = ({ text, fontFamily }) => {
   return (
-    <div className="text-4xl lg:text-5xl  w-full justify-items-center mt-5 pt-5 font-bold" style={{ color: `#${text}`, backgroundColor: "#CC9456" }}>
+    <div className="text-4xl lg:text-5xl w-full grid justify-items-center mt-5 pt-5 font-bold" style={{ color: `#${text}`, backgroundColor: "#CC9456" }}>
       <h1 style={{ color: `#${text}`, fontFamily }}>Order Now</h1>
 
       {/* Flex, with image and Map Side by Side */}
