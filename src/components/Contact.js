@@ -58,7 +58,7 @@ const Contact = ({ text, fontFamily }) => {
 
   return (
     // Outer Container
-    <div className="w-full grid justify-items-center mt-10">
+    <div id="contact" className="w-full grid justify-items-center mt-10">
       <h1 className="text-5xl font-bold" style={{ color: `#${text}`, fontFamily }}>
         Contact Us
       </h1>

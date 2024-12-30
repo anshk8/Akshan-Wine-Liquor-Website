@@ -24,15 +24,15 @@ const NavBar = ({text, fontFamily}) => {
                   </li>
                   
           <li className="hover:underline hover:decoration-double underline-offset-4 font-semibold font-playfair text-sm md:text-lg lg:text-xl" style={{ color: `#${text}`, fontFamily }}>
-            <a href="#">Order</a>
+            <a href="#order">Order</a>
           </li>
           
           <li className="hover:underline hover:decoration-double underline-offset-4 font-semibold text-sm md:text-lg lg:text-xl" style={{ color: `#${text}`, fontFamily }}>
-            <a href="#">About</a>
+            <a href="#about">About</a>
                   </li>
                   
           <li className="hover:underline hover:decoration-double underline-offset-4 font-semibold text-sm md:text-lg lg:text-xl" style={{ color: `#${text}`, fontFamily }}>
-            <a href="#">Contact</a>
+            <a href="#contact">Contact</a>
           </li>
           
 
