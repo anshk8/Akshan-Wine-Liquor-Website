@@ -16,7 +16,7 @@ const About = ({fontFamily, text}) => {
             </div>
                 
 
-            <div className='sm: w-[100%] md:w-[60%] justify-items-center m-auto'>
+            <div className='sm: w-[100%] md:w-[60%] grid justify-items-center m-auto'>
                 <h2
                 className="w-[80%] text-3xl font-extrabold pb-5"
                         style={{ fontFamily }}> Cheers to You! </h2>
