@@ -3,7 +3,8 @@ import variety from '../images/about2.jpg'
 
 const About = ({fontFamily, text}) => {
   return (
-      <div className='w-full justify-items-center mt-10 border-b pb-5'>
+    <div className="w-full grid justify-items-center mt-10 border-b pb-5">
+
           <h1 className="text-5xl font-bold" style={{ color: `#${text}`, fontFamily }}>
             About Us
         </h1>
